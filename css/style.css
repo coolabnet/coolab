@@ -24,7 +24,27 @@ h1 {
 h2, h3, h4, h5, h6 {
   font-family: "Montserrat Alternates";
 
+}
 
+a.medium {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+label.medium {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #50596F;
+}
+
+p.medium {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #50596F
 }
 
 h5{
@@ -150,6 +170,7 @@ a.nav-item-link:hover {
 
   .nav-3 {
     padding-top: -3px;
+
   }
 
   .nav-3, .nav-4 {
@@ -360,6 +381,7 @@ a.nav-item-link:hover {
   margin-left: -30px;
 }
 .projetos-link{
+  font-family: "Montserrat";
   color: red;
   font-weight: bold;
 }
@@ -623,11 +645,13 @@ ul .sobre-list:before{
 
 
 .contador-grande > span {
+  font-family: "Montserrat";
   font-size: 5rem;
   color: white;
 }
 
 .contador-grande > p {
+  font-family: "Montserrat";
   font-size: 1.5rem;
   text-align: center;
   color: white;
@@ -636,11 +660,13 @@ ul .sobre-list:before{
 
 @media (max-width: 420px){
   .contador-grande > span {
+    font-family: "Montserrat";
     font-size: 3rem;
 
   }
 
   .contador-grande > p {
+    font-family: "Montserrat";
     font-size: 1.2rem;
     text-align: center;
     color: white;
